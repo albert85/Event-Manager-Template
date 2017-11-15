@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#eventlist{
+    overflow-y: scroll;
+    height: 300px;
+}
+
+hr{
+    border-color: #ffffff;
+    /* border-width: 10px; */
+}
+
+#section-cover{
+    min-height: 82vh;
+}
