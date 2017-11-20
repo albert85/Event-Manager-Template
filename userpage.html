@@ -17,23 +17,23 @@
 
   </head>
   
-  <body class="text-white bg-dark">
+  <body>
     <!-- Setup the header -->
     
-     <div class="bg-dark mb-3 container-fluid p-2 text-center">
+     <div class="bg-dark container-fluid p-2 text-center">
     <h3>EVENT MANAGEMENT</h3>   
     </div>
 
     <!-- Create two columns for the management content -->
     <!-- create a section -->
     <div class="section">
-      <div id="section-cover">
+      <div id="section-cover-user">
         <div class="container">
-          <div class="row">
+          <div class="row event-body">
             <div class="col-md-5 col-sm-12 pl-4 pr-4 pb-4 mb-3">
-                    <form class="p-2 text-white">
+                    <form class="p-2">
                         <div class="bg-danger text-center text-white p-2 mb-3">
-                            <h4>ADD EVENT</h4>
+                            <h6>ADD EVENT</h4>
                         </div>
 
                         <div class="form-group">
@@ -73,13 +73,13 @@
                     
 
                         <button type="submit" class="btn btn-success btn-sm btn-block mb-3">
-                            <h4><i class="fa fa-plus" aria-hidden="true"></i></h4>
+                            <h4 class="text-white"><i class="fa fa-plus" aria-hidden="true"></i></h4>
                         </button>
 
                         <!-- Viewing all booking at a particular date -->
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary btn-sm btn-block" data-toggle="modal" data-target="#exampleModal">
-                            <h4><i class="fa fa-address-card-o" aria-hidden="true"></i> VIEW BOOKINGS </h4>
+                            <h6 class="text-white"><i class="fa fa-address-card-o" aria-hidden="true"></i> VIEW BOOKINGS </h6>
                         </button>
                                 
                                 <!-- Modal -->
@@ -137,12 +137,12 @@
             
             <div class="col-md-7 col-sm-12 mb-4 pt-2">
                 <div class="text-center bg-danger text-white p-2 mb-2">
-                            <h3>EVENTS</h3>
+                            <h6>EVENTS</h6>
                 </div>
 
-                <div class="scrollevent bg-dark text-center text-dark p-3" id="eventlist">
-                    <table class="table-sm text-center table-hover mx-auto table-dark table-responsive-sm table-striped">
-                        <thead class="text-center bg-info border border-white">
+                <div class="scrollevent bg-primary text-center text-dark p-3" id="eventlist">
+                    <table class="table-sm text-center table-hover mx-auto table-responsive-sm table-striped bg-white">
+                        <thead class="text-center bg-info border border-white text-white">
                             <tr class="p-3">
                                 <th scope="col" class="border border-white"> S/N</th>
                                 <th scope="col" class="border border-white">Event Name</th>
@@ -161,7 +161,7 @@
                                 <td>Apollan</td>
                                 <td>11/12/2017</td>
                                 <td>1.00AM - 2.00AM</td>
-                                <td class="bg-primary">Booked <i class="fa fa-book" aria-hidden="true"></i> </td>
+                                <td class="text-primary">Booked <i class="fa fa-book" aria-hidden="true"></i> </td>
                                 <td>
                                     <div class="row">
                                         <div class="col mb-2"><a href="#" class="btn btn-success btn-block">
@@ -183,7 +183,7 @@
                                 <td>Apollan</td>
                                 <td>11/12/2017</td>
                                 <td>1.00AM - 2.00AM</td>
-                                <td class="bg-danger">Canceled <i class="fa fa-close bg-danger" aria-hidden="true"></i> </td>
+                                <td class="text-danger">Canceled <i class="fa fa-close text-danger" aria-hidden="true"></i> </td>
                                 <td>
                                     <div class="row">
                                         <div class="col mb-2">
@@ -212,7 +212,7 @@
     </div>
 
     <div class="section">
-    <div class="footer p-1 bg-warning mt-0 text-center">
+    <div class="footer p-1 bg-primary mt-0 text-center">
         <h4>&copy; 2017</h4>
     </div>
     </div>
